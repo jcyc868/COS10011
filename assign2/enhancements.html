@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="description" content="Enhancements Page"/>
+	<meta name="keywords" content="HTML5, tags"/>
+	<meta name="author" content="Jovin Chong Yu Cheng"/>
+	<link href="styles/style.css" rel="stylesheet"/>
+	<script src="script/script.js"></script>
+	<title>Enhancements</title>
+
+</head>
+
+<body>
+	<div onclick="scrollToTop()" class="scrollTop">UP</div>
+
+	<nav id="nav" class="navbar">					
+		<div class="navbar-container">
+			<a href="index.html"><img src="images/logo.jpg" alt="UFO Café Logo"/></a>
+			
+			<ul class="navbar-nav-right">
+				<li><a href="index.html">Home</a></li>
+				<li class="dropdown">
+					<a href="products.html">Menu</a>
+					<div id="dropDown" class="dropdown-content">
+						<script>dropDown()</script>
+					</div>
+				</li>
+				<li><a href="enquiry.html">Enquiry</a></li>
+				<li><a href="aboutme.html">About</a></li>
+			</ul>
+		</div>	
+	</nav>
+	
+	<article>
+		<div class="heading1">
+			<h1>Enhancement 1</h1>
+		</div>
+		
+		<div class="enhancements">
+			<h2>1. Auto Playing Video </h2>
+			<p>To present a video in HTML,<span class="courier"> video</span> element is used with added styles to the CSS. Some attributes are added to the tag such as <span class="courier"> autoplay</span>,<span class="courier"> muted</span> and <span class="courier"> loop</span>.
+			In CSS, the video is centered at the webpage and it is adjusted by implementing the <span class="courier">margin</span>, <span class="courier">padding</span> and <span class="courier">display</span> properties.</p><br/>
+			<p>This feature is implemented at <a href="index.html">here</a>. The idea of this feature was referenced from <a href="https://www.w3schools.com/html/html5_video.asp">here</a>, <a href="https://www.youtube.com/watch?v=ECDnmavhyok">here</a> and <a href="https://www.youtube.com/watch?v=7S0X0OWMu_k">here</a>.</p><br/>
+		
+			<h2>2. Site-Map</h2>
+			<p>A sitemap is implemented as a fundamental feature of the business website to give visitors to lead them upon finding the business on Google Maps. On Google Maps, the <span class="courier">share</span> button is chosen to select the <span class="courier">Embed map</span>. It will auto-generate a code of the location to insert in the HTML.</p><br/>
+			<p>This feature is implemented at <a href="index.html">here</a>. The idea of this feature was referenced from <a href="https://www.youtube.com/watch?v=KIC0OK9nKXY">here</a>.</p><br/>
+			
+			<h2>3. Dropdown Menu </h2>
+			<p>In HTML, a container element <span class="courier"> div class="dropdown"</span> is used to create the dropdown content and position the dropdown content correctly with CSS.</p><br/>
+
+			<p> In CSS, the <span class="courier">.dropdown</span> class uses <span class="courier">position:relative</span>, which is needed when the dropdown content to be placed right below the dropdown button by using <span class="courier"> position:absolute</span>.
+			The <span class="courier">.dropdown content</span> class holds the actual dropdown content. It is hidden by default, and will be displayed on hover. The <span class="courier">min-width</span> is set to 130px which is the box width of dropdown.
+			The <span class="courier">z-index</span> is used to place the dropdown in front of other elements. The <span class="courier">:hover</span> selector is used to show the dropdown menu when the user moves the mouse over the dropdown button.</p><br/>
+			
+			<p>This feature is implemented at the Menu in navigation bar. The idea of this feature was referenced from <a href="https://www.w3schools.com/css/css_dropdowns.asp">here</a>.</p><br/>
+			
+			<h2>4. Word Hover Effect </h2>
+			<p>The <span class="courier">:hover</span> selector is used to select elements when the visitors mouse over them. It shows the word red in colour to tell the visitors that what is the selection they are looking at.</p><br/>
+			<p>This feature is implemented at every single page of the website at navigation bar and footer. The idea of this feature was referenced from <a href="https://www.w3schools.com/cssref/sel_hover.asp">here</a>.</p><br/>
+			
+			<h2>5. Box Utilities  </h2>
+			<p>The boxes are created to attract and give a brief introduction to the visitors about the food in the café. The colour of the boxes are alternating to give a comfortable view for the visitors.</p><br/>
+			
+			<p>In HTML, a grid container is created which declared as a class called <span class="courier">grid-col-2</span>. Besides that, <span class="courier">grid-reversed</span> class is the alternating position of <span class="courier">grid-col-2</span>.</p><br/>
+			
+			<p>In CSS, the <span class="courier">grid-template-columns: repeat(2, 1fr);</span> is used by using the <span class="courier">repeat()</span> notation to create a repeating pattern of tracks. The grid will consist of 1 track with 1/2 of the available space of track which basically is 2 columns. 
+			The <span class="courier">first-child</span> selector is used for <span class="courier">grid-reversed</span> and set the order to 2. This is to swap the contents and show the alternating display of boxes.</p><br/>
+			
+			<p>This feature is implemented at <a href="index.html">here</a> and <a href="products.html">here</a>. The idea of this feature was referenced from <a href="https://www.youtube.com/watch?v=x_n2FGNsm0o">here</a>.</p><br/>
+		</div>
+		
+		<div class="heading1">
+			<h1>Enhancement 2</h1>
+		</div>
+		
+		<div class="enhancements">
+			<h2>1. Scroll to Top Button </h2>
+			<p> This feature allows the user to scroll to the top of the web pages without scrolling the mouse instead of just clicking the button to move up top of the web pages. After clicking the button, the window will transfer smoothly to the top of the web pages. This feature helps reduce the user's time when visiting the web pages. </p><br/>
+			<p>	This feature is implemented at <a href="index.html">here</a>, <a href="products.html">here</a>, <a href="breakfast.html">here</a>, <a href="lunch.html">here</a>, <a href="cakes.html">here</a> and <a href="kuih.html">here</a>. This information is referenced from <a href="https://www.youtube.com/watch?v=3Jbb3sQVVq0">here</a>.</p><br/>
+			
+			<h2>2. Auto Selection of Food Enquiry  </h2>
+			<p> This feature is implemented to select the food selection and fill the "Subject" input field at the same time. Thus, the user need not to select the food selection again after clicking the enquiry button from the product pages. The written code is modified from the demo code of Data Transfer Within Page to display the feature. </p><br/>
+			<p> This feature is implemented at <a href="enquiry.html">here</a>. This information is referenced from: (The unit COS10011 Creating Web Applications | Data Transfer Demo: Transfer Within Page).</p><br/>
+			
+			<h2>3. Confirmation Page  </h2>
+			<p> To allow the users to preview the page after submitting their enquiry form, a confirmation page is added and will be displayed after the user submits the enquiry form. In the confirm.html page, it will display the user details that has filled in the enquiry.html page. The JavaScript code used is "sessionStorage" to pass the data from enquiry.html to confirm.html.</p><br/>
+			<p> This feature is implemented at <a href="confirm.html">here</a>. This information is referenced from: (The unit COS10011 Creating Web Applications | Lab 6 Activity: Document Object Model)</p><br/>
+			
+			<h2>4. Slideshow Effect </h2>
+			<p> The images are chosen to display in the slide show in the products.html for breakfast, lunch, cakes, and kuih menu. The slideshow effect used will change the slide by itself every 2 seconds. This effect allows the user to preview the products before viewing the individual product. The slider image is used to enhance the overall visual appeal of the webpage and improve user experience and site functionality. </p><br/>
+			<p> This feature is implemented at <a href="products.html">here</a>. This information is referenced from <a href="https://www.youtube.com/watch?v=H-ubrrOjunE&ab_channel=FEWFrontEndWeb">here</a>.</p><br/>
+			
+			<h2>5. Clock Time  </h2>
+			<p> This feature provides the real-time clock to the user. Clock is displayed under the webpages as it is an useful element for any user interface design. The feature is displayed under the footer. </p><br/>
+			<p> This feature is implemented at <a href="index.html">here</a>, <a href="products.html">here</a>, <a href="breakfast.html">here</a>, <a href="lunch.html">here</a>, <a href="cakes.html">here</a>, <a href="disclaimer.html">here</a>, <a href="acknowledgement.html">here</a>, <a href="aboutme.html">here</a> and <a href="kuih.html">here</a>. This information is referenced from <a href="https://www.youtube.com/watch?v=rar7kv_A9lA ">here</a>.</p><br/>
+			
+			<h2>6. Field Highlight </h2>
+			<p> This feature is used to alert the user where the user has missed out the input field. The input box will show red when the input field is blank while the box shows green when the input field is filled. </p><br/>
+			<p> This feature is implemented at <a href="enquiry.html">here</a>. This information is referenced from <a href="https://stackoverflow.com/questions/5782857/changing-textbox-border-colour-using-javascript">here</a>.</p>
+			
+		</div>
+    </article>
+	
+	<footer>
+		<div class="wrapper">
+			<div class="company">
+			  <ul>
+				<li><h3>About Us</h3></li>
+				<li><a href="index.html">Our Café</a></li>
+				<li><a href="disclaimer.html">Disclaimer</a></li>
+				<li><a href="enhancements.html">Enhancements</a></li>
+				<li><a href="enquiry.html">Customer Service</a></li>
+				<li><a href="acknowledgement.html">Acknowledgement</a></li>
+			  </ul>
+			</div>
+			
+			<div class="products_footer">
+			  <ul>
+				<li><h3>Products</h3></li>
+				<li><a href="breakfast.html">Breakfast</a></li>
+				<li><a href="lunch.html">Lunch</a></li>
+				<li><a href="cakes.html">Cakes</a></li>
+				<li><a href="kuih.html">Kuih</a></li>
+			  </ul>
+			</div>
+		</div>
+		
+		<div class="logo_footer">
+			<a href="index.html"><img src="images/logo.jpg" alt="UFO Logo" title="Back to Home"/></a>
+			<p>Tel: +(60)16-778 5305 (Mr. Tsen) or +(60)19-580 7688 (Ms. Tsen)</p><br/>
+			<p>&#xa9;2022 UFO Café| Page developed by Jovin Chong</p><br/>
+		</div>
+		<div id="txt"></div>
+	</footer>
+	<script src="script/enhancement.js"></script>
+</body>
+</html>
