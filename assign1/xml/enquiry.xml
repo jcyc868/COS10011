@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="description" content="Enquiry Page"/>
+	<meta name="keywords" content="HTML5, tags"/>
+	<meta name="author" content="Jovin Chong Yu Cheng"/>
+	<link href="styles/style.css" rel="stylesheet"/>
+	<title>Enquiry Form</title>
+
+</head>
+
+<body>
+	<nav class="navbar">					
+		<div class="navbar-container">
+			<div class="nav-brand">
+			<a href="index.html"><img src="images/logo.jpg" alt="UFO Café Logo"/></a>
+			</div>
+			
+			<ul class="navbar-nav-right">
+				<li><a href="index.html">Home</a></li>
+				<li class="dropdown">
+					<a class="dropbtn" href="products.html">Menu</a>
+					<div class="dropdown-content">
+						<a href="breakfast.html">Breakfast</a>
+						<a href="lunch.html">Lunch</a>
+						<a href="cakes.html">Cakes</a>
+						<a href="kuih.html">Kuih</a>
+					</div>
+				</li>
+				<li><a href="enquiry.html">Enquiry</a></li>
+				<li><a href="aboutme.html">About</a></li>
+			</ul>
+		</div>	
+	</nav>
+	
+	<div class="enquiry_heading">
+		<h1>Enquiry Form</h1>
+	</div>
+
+	<form id="detail" method="post" action="mailto:101221718@students.swinburne.edu.my" enctype="text/plain">
+		<fieldset>
+			<legend>Contact Information</legend>
+			<label for="fname">First Name *</label><input type="text" id="fname" name="fname" required="required" maxlength="25" pattern="[A-Za-z]+"/><br/>
+			<label for="lname">Last Name *</label><input type="text" id="lname" name="lname" required="required" maxlength="25" pattern="[A-Za-z]+"/><br/>
+			<label>Phone Number *<input type="tel" name="phone" placeholder="XXX-XXX-XXXX" maxlength="10" pattern="[0-9]+" required="required"/></label><br/>
+			<label for="femail">Email *</label><input type="text" id="femail" name="femail" placeholder="example@domain.com" required="required" /><br/>
+		</fieldset>
+	
+		<fieldset>
+			<legend>Address</legend>
+				<label for="faddress">Street Address *</label><input type="text" id="faddress" name="faddress" maxlength="40" required="required"/><br/>
+				
+				<label for="fcity">City/Town *</label><input type="text" id="fcity" name="fcity" maxlength="20" required="required"/><br/>
+				
+				<label>State *</label>
+				<select required="required" name="state">
+				    <option selected="selected" value="">--</option>
+					<option value="Johor">Johor </option>
+					<option value="Kedah">Kedah </option>
+					<option value="Kelantan">Kelantan</option>
+					<option value="KL">Kuala Lumpur</option>
+					<option value="Labuan">Labuan</option>	
+					<option value="Malacca">Malacca</option>
+					<option value="Negeri Sembilan">Negeri Sembilan</option>
+					<option value="Pahang">Pahang</option>					
+					<option value="Penang">Penang</option>
+					<option value="Perak">Perak</option>
+					<option value="Perlis">Perlis</option>
+				    <option value="Putrajaya">Putrajaya</option>
+					<option value="Sabah">Sabah</option>					
+					<option value="Sarawak">Sarawak</option> 
+					<option value="Selangor">Selangor</option>  
+					<option value="Terengganu">Terengganu</option>
+				</select><br/>
+
+				<label for="fposscode">Posscode *</label><input type="text" id="fposscode" name="fposscode" maxlength="5" required="required" pattern="[0-9]+"/><br/>
+		</fieldset>
+	
+		<fieldset>
+			<legend>Food Category</legend>
+			<select required="required" name="category">
+				<option value="" selected="selected">--</option>
+				<optgroup label="Breakfast">
+					<option value="#ABF Set">ABF Set</option>
+					<option value="#Local Set">Local Set</option>
+					<option value="#Steamed Rice Noodle Rolls">Steamed Rice Noodle Rolls</option>
+					<option value="#Chicken Porridge">Chicken Porridge</option>
+					<option value="#Chicken Pau">Chicken Pau</option>
+					<option value="#Penut Pau">Peanut Pau</option>
+					<option value="#Red Bean Pau">Red Bean Pau</option>
+				</optgroup>
+				<optgroup label="Lunch">
+					<option value="Prawn Soup">Prawn Soup</option>
+					<option value="Beef Soup">Beef Soup</option>
+					<option value="Laksa">Laksa</option>
+					<option value="Steamed Chicken Rice">Steamed Chicken Rice</option>
+					<option value="Nasi Kuning Ayam">Nasi Kuning Ayam</option>
+					<option value="Nasi Kuning Ikan">Nasi Kuning Ikan</option>
+					<option value="Nasi Kuning Daging">Nasi Kuning Daging</option>
+				</optgroup>
+				<optgroup label="Cakes">
+					<option value="Pandan Cake">Pandan Cake</option>
+					<option value="Crepes">Crepes</option>
+					<option value="Rum Fruit Cake">Rum Fruit Cake</option>
+					<option value="Mango Cheese">Mango Cheese</option>
+					<option value="Carrot Cheese">Carrot Cheese</option>
+				</optgroup>
+				<optgroup label="Kuih">
+					<option value="UFO">UFO</option>
+					<option value="Egg Tart">Egg Tart</option>
+					<option value="Kuih Lapis">Kuih Lapis</option>
+					<option value="Kuih Lenggang">Kuih Lenggang</option>
+					<option value="Lo Bak Gou">Lo Bak Gou</option>
+				</optgroup>
+			</select>
+		</fieldset>
+
+		<fieldset>
+			<legend>Comments</legend>
+				<textarea name="comments" rows="4" cols="50" placeholder="Enter comments here"></textarea>
+		</fieldset>
+		
+		<button type="submit" value = "Submit">Register</button>
+		<button type="reset" value = "Reset">Reset</button>
+	</form><br/><br/>
+	
+	<footer>
+		<div class="wrapper">
+			<div class="company">
+			  <ul>
+				<li><h3>About Us</h3></li>
+				<li><a href="index.html">Our Café</a></li>
+				<li><a href="disclaimer.html">Disclaimer</a></li>
+				<li><a href="enhancements.html">Enhancements</a></li>
+				<li><a href="enquiry.html">Customer Service</a></li>
+				<li><a href="acknowledgement.html">Acknowledgement</a></li>
+			  </ul>
+			</div>
+			
+			<div class="products_footer">
+			  <ul>
+				<li><h3>Products</h3></li>
+				<li><a href="breakfast.html">Breakfast</a></li>
+				<li><a href="lunch.html">Lunch</a></li>
+				<li><a href="cakes.html">Cakes</a></li>
+				<li><a href="kuih.html">Kuih</a></li>
+			  </ul>
+			</div>
+		</div>
+		
+		<div class="logo_footer">
+			<a href="index.html"><img src="images/logo.jpg" alt="UFO Logo" title="Back to Home"/></a>
+			<p>Tel: +(60)16-778 5305 (Mr. Tsen) or +(60)19-580 7688 (Ms. Tsen)</p><br/>
+			<p>&#xa9;2022 UFO Café| Page developed by Jovin Chong</p>
+		</div>
+	</footer>
+	
+</body>
+</html>

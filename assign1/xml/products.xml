@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="description" content="UFO Café Menu Page"/>
+	<meta name="keywords" content="HTML5, tags"/>
+	<meta name="author" content="Jovin Chong Yu Cheng"/>
+	<link href="styles/style.css" rel="stylesheet"/>
+	<title>Menu</title>
+
+</head>
+
+<body>
+	<nav class="navbar">					
+		<div class="navbar-container">
+			<div class="nav-brand">
+			<a href="index.html"><img src="images/logo.jpg" alt="UFO Café Logo"/></a>
+			</div>
+			
+			<ul class="navbar-nav-right">
+				<li><a href="index.html">Home</a></li>
+				<li class="dropdown">
+					<a class="dropbtn" href="products.html">Menu</a>
+					<div class="dropdown-content">
+						<a href="breakfast.html">Breakfast</a>
+						<a href="lunch.html">Lunch</a>
+						<a href="cakes.html">Cakes</a>
+						<a href="kuih.html">Kuih</a>
+					</div>
+				</li>
+				<li><a href="enquiry.html">Enquiry</a></li>
+				<li><a href="aboutme.html">About</a></li>
+			</ul>
+		</div>	
+	</nav>
+  
+	<article>
+		<div class="heading1">
+				<h1>Menu</h1>
+		</div>
+	</article>
+  
+	<!-- Box B -->
+    <section class="box bg-primary grid-col-2">
+		<img src="images/breakfastintro.jpg" alt="" />
+			<div class="box-text">
+				<h2 class="text-md">Eat Breakfast Like A King</h2>
+				<p class="text-sm">
+				Kick-start your day off right with delicious local breakfast that'll give you energy all day. 
+				</p>
+				<a href="breakfast.html" class="btn btn-light-outline">View Now</a>
+			</div>
+    </section>
+
+    <!-- Box C -->
+    <section class="box bg-secondary grid-col-2 grid-reversed">
+		<img src="images/lunchintro.jpg" alt="" />
+			<div class="box-text">
+				<h2 class="text-md">Appetizing Lunch Made For You</h2>
+				<p class="text-sm">
+				It's your time, it's lunchtime! Come to grab yours now and share it with your loved ones.
+				</p>
+				<a href="lunch.html" class="btn btn-dark-outline">View Now</a>
+			</div>
+    </section>
+
+    <!-- Box D -->
+    <section class="box bg-primary grid-col-2">
+		<img src="images/cakesintro.jpg" alt="" />
+			<div class="box-text">
+				<h2 class="text-md">The Taste of Home-baked Goodness</h2>
+				<p class="text-sm">
+				Cake is for life, not just for birthdays! 
+				Made with high-quality, simple ingredients.
+				It is real food and simply delicious.
+				</p>
+				<a href="cakes.html" class="btn btn-light-outline">View Now</a>
+			</div>
+    </section>
+
+    <!-- Box E -->
+    <section class="box bg-secondary grid-col-2 grid-reversed">
+		<img src="images/kuihintro.jpg" alt="" />
+			<div class="box-text">
+				<h2 class="text-md">Make Fresh Just For You</h2>
+				<p class="text-sm">
+				These options are convenient for both breakfast, lunch and high tea. 
+				Each of them have been crafted and packaged so that they are easy to grab and eat especially for those on-the-go.
+				</p>
+				<a href="kuih.html" class="btn btn-dark-outline">View Now</a>
+			</div>
+    </section>
+	
+	<footer>
+		<div class="wrapper">
+			<div class="company">
+			  <ul>
+				<li><h3>About Us</h3></li>
+				<li><a href="index.html">Our Café</a></li>
+				<li><a href="disclaimer.html">Disclaimer</a></li>
+				<li><a href="enhancements.html">Enhancements</a></li>
+				<li><a href="enquiry.html">Customer Service</a></li>
+				<li><a href="acknowledgement.html">Acknowledgement</a></li>
+			  </ul>
+			</div>
+			
+			<div class="products_footer">
+			  <ul>
+				<li><h3>Products</h3></li>
+				<li><a href="breakfast.html">Breakfast</a></li>
+				<li><a href="lunch.html">Lunch</a></li>
+				<li><a href="cakes.html">Cakes</a></li>
+				<li><a href="kuih.html">Kuih</a></li>
+			  </ul>
+			</div>
+		</div>
+		
+		<div class="logo_footer">
+			<a href="index.html"><img src="images/logo.jpg" alt="UFO Logo" title="Back to Home"/></a>
+			<p>Tel: +(60)16-778 5305 (Mr. Tsen) or +(60)19-580 7688 (Ms. Tsen)</p><br/>
+			<p>&#xa9;2022 UFO Café| Page developed by Jovin Chong</p>
+		</div>
+	</footer>
+	
+</body>
+</html>

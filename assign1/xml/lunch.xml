@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="description" content="UFO Café Lunch Page"/>
+	<meta name="keywords" content="HTML5, tags"/>
+	<meta name="author" content="Jovin Chong Yu Cheng"/>
+	<link href="styles/style.css" rel="stylesheet"/>
+	<title>Lunch</title>
+
+</head>
+
+<body>
+	<nav class="navbar">					
+		<div class="navbar-container">
+			<div class="nav-brand">
+			<a href="index.html"><img src="images/logo.jpg" alt="UFO Café Logo"/></a>
+			</div>
+			
+			<ul class="navbar-nav-right">
+				<li><a href="index.html">Home</a></li>
+				<li class="dropdown">
+					<a class="dropbtn" href="products.html">Menu</a>
+					<div class="dropdown-content">
+						<a href="breakfast.html">Breakfast</a>
+						<a href="lunch.html">Lunch</a>
+						<a href="cakes.html">Cakes</a>
+						<a href="kuih.html">Kuih</a>
+					</div>
+				</li>
+				<li><a href="enquiry.html">Enquiry</a></li>
+				<li><a href="aboutme.html">About</a></li>
+			</ul>
+		</div>	
+	</nav>
+	
+	<article>
+		<div class="heading1">
+				<h1>Lunch</h1>
+		</div>
+	</article>
+	
+	<section class="box-m bg-intro grid-col-2" >
+		<img src="images/chickenrice.jpg" alt="" />
+			<div class="box-menu">
+				<h2 class="text-lg">Hainanese Chicken Rice</h2>
+				<p class="text-sm">
+				Hainanese chicken rice is a well-known Hainanese dish called Wenchang chicken (文昌雞). <br/><br/>
+				Serve with steamed white chicken cut into slice pieces and pandan flavoured rice with some light soy sauce. Top with sprigs of coriander leaf and sesame oil and accompany by a garlic-chilli dip.<br/><br/>
+				Calories: 618
+				</p>
+			</div>
+	</section>
+
+	<section class="box-m bg-intro grid-col-2" >
+		<img src="images/nasikuning.jpg" alt="" />
+			<div class="box-menu">
+				<h2 class="text-lg">Nasi Kuning</h2>
+				<p class="text-sm">
+				The rice is cooked in coconut milk and flavored with fresh turmeric along with several other spices and herbs.<br/><br/>
+				It can be served with fried chicken, rendang or fried fish.<br/><br/>
+				Calories: 936
+				</p>
+			</div>
+	</section>
+	
+		<section class="box-m bg-intro grid-col-2" >
+		<img src="images/beefsoup.jpg" alt="" />
+			<div class="box-menu">
+				<h2 class="text-lg">Beef Soup</h2>
+				<p class="text-sm">
+				Beef soup is a soup made of stewed or braised beef, beef broth and bean sprouts.<br/><br/>
+				The soup can be served with Meehun, Kuey Teow or noodle.<br/><br/>
+				Calories: 380
+				</p>
+			</div>
+	</section>
+	
+	<section class="box-m bg-intro grid-col-2" >
+		<img src="images/laksa.jpg" alt="" />
+			<div class="box-menu">
+				<h2 class="text-lg">Laksa</h2>
+				<p class="text-sm">
+				Serve with thick rice noodles and toppings such as prawn and vegetables.<br/><br/>
+				A spoonful of sambal chilli paste, lime and spring onions as seasoning condiments to improve the texture of soup. <br/><br/>
+				Calories: 432
+				</p>
+			</div>
+	</section>
+	
+		<section class="box-m bg-intro grid-col-2" >
+		<img src="images/Prawnsoup.jpg" alt="" />
+			<div class="box-menu">
+				<h2 class="text-lg">Prawn Soup</h2>
+				<p class="text-sm">
+				Serve with thick yellow noodles, slices of prawn and kangkong. <br/><br/>
+				The soup is made up of broth of chicken bones and prawn stock made from prawn heads and shells.<br/><br/>
+				Calories: 294
+				</p>
+			</div>
+	</section>
+	
+	<footer>
+		<div class="wrapper">
+			<div class="company">
+			  <ul>
+				<li><h3>About Us</h3></li>
+				<li><a href="index.html">Our Café</a></li>
+				<li><a href="disclaimer.html">Disclaimer</a></li>
+				<li><a href="enhancements.html">Enhancements</a></li>
+				<li><a href="enquiry.html">Customer Service</a></li>
+				<li><a href="acknowledgement.html">Acknowledgement</a></li>
+			  </ul>
+			</div>
+			
+			<div class="products_footer">
+			  <ul>
+				<li><h3>Products</h3></li>
+				<li><a href="breakfast.html">Breakfast</a></li>
+				<li><a href="lunch.html">Lunch</a></li>
+				<li><a href="cakes.html">Cakes</a></li>
+				<li><a href="kuih.html">Kuih</a></li>
+			  </ul>
+			</div>
+		</div>
+		
+		<div class="logo_footer">
+			<a href="index.html"><img src="images/logo.jpg" alt="UFO Logo" title="Back to Home"/></a>
+			<p>Tel: +(60)16-778 5305 (Mr. Tsen) or +(60)19-580 7688 (Ms. Tsen)</p><br/>
+			<p>&#xa9;2022 UFO Café| Page developed by Jovin Chong</p>
+		</div>
+	</footer>
+	
+</body>
+</html>
